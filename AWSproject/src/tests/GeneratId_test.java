@@ -6,8 +6,8 @@ public class GeneratId_test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int id;
-		 Id_generat n=new Id_generat(1);
+		String id;
+		 Id_generat n=new Id_generat("");
 		 //read the id of the last client
 	       n.read_last_id();
 	       // id of the last client +1 

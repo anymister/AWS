@@ -16,12 +16,13 @@ import javax.xml.stream.events.XMLEvent;
 
 import de.vogella.xml.stax.reader.Item;
 
-public class Read_xml_file {
+public class Produits {
     static final String DATE = "id";
     static final String ITEM = "item";
     static final String MODE = "name";
-    static final String UNIT = "email";
-    static final String CURRENT = "password";
+    static final String UNIT = "description";
+    static final String MARC = "marque";
+    static final String CURRENT = "prix";
    
 
     @SuppressWarnings({ "unchecked", "null" })
@@ -69,6 +70,14 @@ public class Read_xml_file {
                                 .equals(MODE)) {
                             event = eventReader.nextEvent();
                             item.setName(event.asCharacters().getData());
+                            continue;
+                        }
+                    }
+                    if (event.isStartElement()) {
+                        if (event.asStartElement().getName().getLocalPart()
+                                .equals(MARC)) {
+                            event = eventReader.nextEvent();
+                            item.setMarque(event.asCharacters().getData());
                             continue;
                         }
                     }

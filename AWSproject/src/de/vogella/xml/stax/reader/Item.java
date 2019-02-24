@@ -5,6 +5,7 @@ public class Item {
     private String name;
     private String mail;
     private String password;
+    private String marque;
     
 	public String getId() {
 		return id;
@@ -31,10 +32,17 @@ public class Item {
 		this.password = password;
 	}
     
-	 public String toString() {
-	        return "Item [id=" + id + ", name=" + name + ", email="
-	                + mail + ", password=" + password+"]";
-	    }
+	 public String getMarque() {
+		return marque;
+	}
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+	@Override
+	public String toString() {
+		return "Item [id=" + id + ", name=" + name + ", mail=" + mail + ", password=" + password + ", marque=" + marque
+				+ "]";
+	}
 	
 
   
