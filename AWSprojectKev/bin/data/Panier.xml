@@ -1,0 +1,46 @@
+<?xml version="1.0"?><config>
+	<id>2</id>
+	<id_client>2</id_client>
+	<quantite>2</quantite>
+	<item>
+		<id>3</id>
+		<id_client>1</id_client>
+		<quantite>2</quantite>
+	</item>
+
+	<item>
+		<id>2</id>
+		<id_client>1</id_client>
+		<quantite>5</quantite>
+	</item>
+
+	<item>
+		<id>5</id>
+		<id_client>123</id_client>
+		<quantite>4</quantite>
+	</item>
+
+	<item>
+		<id>5</id>
+		<id_client>null</id_client>
+		<quantite>100</quantite>
+	</item>
+
+	<item>
+		<id>5</id>
+		<id_client>null</id_client>
+		<quantite>40</quantite>
+	</item>
+
+	<item>
+		<id>4</id>
+		<id_client>null</id_client>
+		<quantite>45</quantite>
+	</item>
+
+	<item>
+		<id>1</id>
+		<id_client>10</id_client>
+		<quantite>2</quantite>
+	</item>
+</config>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+	<item>
+		<id>1</id>
+		<name>capote</name>
+		<marque>Redex</marque>
+		<description>anis</description>
+		<prix>20</prix>
+	</item>
+
+	<item>
+		<id>2</id>
+		<name>preservatif</name>
+		<marque>Redex</marque>
+		<description>anis</description>
+		<prix>25</prix>
+	</item>
+
+	<item>
+		<id>4</id>
+		<name>pillule</name>
+		<marque>Redex</marque>
+		<description>anis</description>
+		<prix>250</prix>
+	</item>
+
+	<item>
+		<id>5</id>
+		<name>couches</name>
+		<marque>Redex</marque>
+		<description>anis</description>
+		<prix>6</prix>
+	</item>
+</config>
